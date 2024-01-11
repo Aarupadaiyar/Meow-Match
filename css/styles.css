@@ -26,3 +26,7 @@
         background-position: right;
     }
 }
+.headline{
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 2px black;
+}
