@@ -1,0 +1,28 @@
+:root{ 
+    --gradient: linear-gradient(45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871
+    )
+       
+
+    
+       
+}
+#title{
+    background-image: var(--gradient);
+    animation: bg-anime  10s infinite;
+    background-size: 400%;
+
+}
+@keyframes bg-anime{
+    0%,100%{
+        background-position: left;
+    }
+    50%{
+        background-position: right;
+    }
+}
